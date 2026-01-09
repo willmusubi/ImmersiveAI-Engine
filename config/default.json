@@ -1,0 +1,42 @@
+{
+  "app": {
+    "name": "Immersive AI Engine",
+    "version": "0.0.1",
+    "port": 3000
+  },
+  "llm": {
+    "anthropic": {
+      "apiKey": "",
+      "model": "claude-sonnet-4-5-20250929",
+      "maxTokens": 1000,
+      "temperature": 0.8,
+      "timeoutMs": 30000
+    }
+  },
+  "database": {
+    "path": "./data/db/immersive-ai.db",
+    "backup": {
+      "enabled": true,
+      "interval": "1d",
+      "maxBackups": 7
+    }
+  },
+  "logging": {
+    "level": "info",
+    "toFile": true,
+    "toConsole": true,
+    "dir": "./data/logs"
+  },
+  "performance": {
+    "maxConcurrentRequests": 10,
+    "requestTimeoutMs": 30000,
+    "cacheEnabled": true,
+    "cacheTTLSeconds": 300
+  },
+  "features": {
+    "stateManagement": true,
+    "validation": true,
+    "skills": false,
+    "multiAgent": false
+  }
+}

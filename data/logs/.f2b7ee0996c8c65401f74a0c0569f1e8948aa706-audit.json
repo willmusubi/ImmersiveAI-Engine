@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 30
+    },
+    "auditLog": "/Users/liutong/Admin/Journey_to_AI/Ukiyo/Product/ImmersiveAI-Engine/data/logs/.f2b7ee0996c8c65401f74a0c0569f1e8948aa706-audit.json",
+    "files": [
+        {
+            "date": 1767966440753,
+            "name": "/Users/liutong/Admin/Journey_to_AI/Ukiyo/Product/ImmersiveAI-Engine/data/logs/error-2026-01-09.log",
+            "hash": "ad26946a8ce5795e4241ab46751cde7fcf707b0ed040ad65e505b527ce5681bb"
+        }
+    ],
+    "hashType": "sha256"
+}
